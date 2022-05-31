@@ -1,0 +1,74 @@
+
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content {
+    text-align: center;
+    padding: 2rem 0rem 0rem 0rem;
+    line-height: 3rem;
+    color: #00848f;
+    font-weight: 900;
+}
+.search-area {
+    border: #707070 solid 1px;
+    width: 250px;
+    height: 40px;
+    margin: 1rem 0rem 1rem 40.5%;
+    border-radius: 10px;
+}
+.search-area input {
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 200px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.container {
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a , .b , .c {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.cards img {
+    border-radius: 50%;
+    width: 50%;
+}
+.cardOne {
+    box-shadow: 1px 1px 2px 3px rgb(214, 205, 205);
+    width: 250px;
+    height: 250px;
+    padding: 1rem 1rem 1rem 5rem;
+    margin: 1rem;
+    line-height: 1rem;
+    border-radius: 15px;
+}
+.cardOne h5 {
+    padding: 1rem 0rem;
+    margin: 0rem 0rem 0rem -1rem;
+    font-size: 1.2rem;
+    color: #00848f;
+    font-weight: bold;
+}
+.title {
+    font-size: 1rem;
+    width: 400px;
+    margin: 0rem 0rem 1rem -2.5rem;
+}
+.type {
+    padding: .5rem;
+    font-size: 0.8rem;
+    background-color: #707070;
+    width: fit-content;
+    border-radius: 15px;
+    color: #fff;
+    margin: 0rem 0rem 0rem -.5rem;
+}
