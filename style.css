@@ -16,7 +16,7 @@
     border: #707070 solid 1px;
     width: 250px;
     height: 40px;
-    margin: 1rem 0rem 1rem 40.5%;
+    margin: 1rem 5.1rem;
     border-radius: 10px;
 }
 .search-area input {
@@ -51,6 +51,7 @@
     line-height: 1rem;
     border-radius: 15px;
 }
+
 .cardOne h5 {
     padding: 1rem 0rem;
     margin: 0rem 0rem 0rem -1rem;
@@ -71,4 +72,14 @@
     border-radius: 15px;
     color: #fff;
     margin: 0rem 0rem 0rem -.5rem;
+}
+@media screen and (min-width:700px) { 
+    .search-area {
+        margin: 1rem 0rem 1rem 34.5%;
+    } 
+}
+@media screen and (min-width:1000px) { 
+    .search-area {
+        margin: 1rem 0rem 1rem 40.5%;
+    } 
 }
